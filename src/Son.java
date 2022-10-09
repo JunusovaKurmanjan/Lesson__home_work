@@ -20,6 +20,11 @@ public final class Son extends Father {
 public String getInfo1() {
     return super.getInfo1() + "" + getBirthday() +"" + getName() + Cars.BMV;
 }
+
+@Override
+    public void printFather(String prof){
+    System.out.println("this is son");
+}
 }
 
 

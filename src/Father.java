@@ -18,6 +18,14 @@ public class Father extends GrandFather {
 
     @Override
     public String getInfo1() {
-        return super.getInfo1() +" "+ getProfession()+" " + getWeith()+" " + Cars.MERCEDES;
+        return super.getInfo1() + " " + getProfession() + " "
+                + getWeith() + " " + Cars.MERCEDES;
+    }
+
+    public  void printFather(String profession){
+        System.out.println("Father profession: " + profession);
+    }
+    final public void printFather() {
+        System.out.println("This is father");
     }
 }

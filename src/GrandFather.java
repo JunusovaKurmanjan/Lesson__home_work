@@ -1,4 +1,4 @@
-public class GrandFather {
+public abstract class GrandFather {
     private int Age;
     private String Hobby;
     private GrandSon grandSon;
@@ -20,4 +20,5 @@ public class GrandFather {
         return "Возраст :"+Age +"\nХобби :"+Hobby + "\nGrandson age : " + grandSon.getAge()+ "\nGrandson growth: "
                 +grandSon.getGrowth() + " Cars: " + Cars.LEXUS;
     }
+
 }
